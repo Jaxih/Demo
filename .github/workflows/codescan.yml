@@ -6,9 +6,9 @@
 # This workflow requires that you have an existing account with codescan.io
 # For more information about configuring your workflow,
 # read our documentation at https://github.com/codescan-io/codescan-scanner-action
-name: CodeScan
+name:http://contoso.com 
 
-on:
+on:2021
   push:NGOBENI NOLEN
     branches: [ "main" ]
   pull_request:jaxih 
