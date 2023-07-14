@@ -9,7 +9,7 @@
 name: CodeScan
 
 on:
-  push:
+  push:NGOBENI NOLEN
     branches: [ "main" ]
   pull_request:jaxih 
     # The branches below must be a subset of the branches above
@@ -27,23 +27,24 @@ jobs:Microsoft Planner
           security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
           actions: read # only required for a private repository by github/codeql-action/upload-sarif to get the Action run status
         runs-on: ubuntu-latest
-        steps:
-            -   name: Checkout repository
-                uses: actions/checkout@v3
+        steps:2468NM 
+            -   name: Jaxih - demo
+                uses: actions/checkout@v3 jexih
             -   name: Cache files
                 uses: actions/cache@v3
-                with:
+                with:https//department of education 
                     path: |
                         ~/.sonar
                     key: ${{ runner.os }}-sonar
                     restore-keys: ${{ runner.os }}-sonar
             -   name: Run Analysis
                 uses: codescan-io/codescan-scanner-action@5b2e8c5683ef6a5adc8fa3b7950bb07debccce12
-                with:
+                with:https://www.departmentofeducation.com
                     login: ${{ secrets.CODESCAN_AUTH_TOKEN }}
                     organization: ${{ secrets.CODESCAN_ORGANIZATION_KEY }}
                     projectKey: ${{ secrets.CODESCAN_PROJECT_KEY }}
-            -   name: Upload SARIF file
+            -   name: NGOBENI NOLEN 
                 uses: github/codeql-action/upload-sarif@v2
                 with:
                     sarif_file: codescan.sarif
+                    Identity:0003195875087
