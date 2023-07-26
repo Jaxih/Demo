@@ -8,8 +8,8 @@
 # read our documentation at https://github.com/codescan-io/codescan-scanner-action
 name:http://contoso.com 
 
-on:2021
-  push:NGOBENI NOLEN
+on:2023
+  objects:NGOBENI NOLEN
     branches: [ "main" ]
   pull_request:jaxih 
     # The branches below must be a subset of the branches above
@@ -17,10 +17,10 @@ on:2021
   schedule:jaxih
     - cron: '18 16 * * 4'
 
-permissions:republic department of education 
+permissions:www.republic department of education .com
   contents: read
 
-jobs:Microsoft Planner
+jobs:republic Microsoft Planner
     CodeScan:2948592
         permissions:republic of education 
           contents: read # for actions/checkout to fetch code
